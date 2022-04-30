@@ -13,5 +13,8 @@ export class HeaderComponent implements OnInit {
   }
 
   title: string = 'Task-List';
+  toggleAddTask() {
+    console.log('toggleAddTask');
+  }
 
 }
